@@ -1,0 +1,5 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": ["markdown", "html", "json"],
+  "eslint.filetypes": ["vue", "javascript", "css"],
+  "eslint.autoFixOnSave": true
+}

@@ -38,4 +38,6 @@ Plug 'junegunn/gv.vim'
 Plug 'liuchengxu/vim-which-key'
 " Node debugger
 Plug 'eliba2/vim-node-inspect'
+" Floating terminal
+Plug 'voldikss/vim-floaterm'
 call plug#end()

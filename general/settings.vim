@@ -1,7 +1,8 @@
 " set leader key
 let g:mapleader = "\<Space>"
+let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 
-set syntax                              " Enables syntax highlighing
+syntax enable                              " Enables syntax highlighing
 set hidden                              " Required to keep multiple buffers open multiple buffers
 set nowrap                              " Display long lines as just one line
 set encoding=utf-8                      " The encoding displayed
@@ -22,6 +23,7 @@ set expandtab                           " Converts tabs to spaces
 set smartindent                         " Makes indenting smart
 set autoindent                          " Good auto indent
 set laststatus=0                        " Always display the status line
+set number
 set relativenumber                      " Line numbers
 set cursorline                          " Enable highlighting of the current line
 set background=dark                     " tell vim what the background color looks like

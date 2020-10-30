@@ -7,11 +7,12 @@ if empty(glob('~/.config/nvim/autoload/plug.vim'))
 endif
 
 
-call plug#begin('~/config/nvim/autoload/plug.vim')
+call plug#begin('~/.vim/plugged')
 
 " Better Syntax Support
 " Plug 'sheerun/vim-polyglot'
 " File Explorer
+Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/NERDTree'
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
@@ -20,7 +21,8 @@ Plug 'vim-airline/vim-airline'
 " Themes for status line
 Plug 'vim-airline/vim-airline-themes'
 " Theme
-Plug 'joshdick/onedark.vim'
+" Plug 'joshdick/onedark.vim'
+Plug 'morhetz/gruvbox'
 " Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Searching

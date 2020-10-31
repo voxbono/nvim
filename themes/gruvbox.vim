@@ -1,5 +1,5 @@
 let g:gruvbox_italic=1
-let g:onedark_termcolors=256
+let g:gruvbox_termcolors=256
 
 syntax on
 colorscheme gruvbox

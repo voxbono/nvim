@@ -15,7 +15,9 @@ let g:startify_bookmarks = [
             \ { 'n': '/usr/local/etc/nginx/nginx.conf' },
             \ { 't': '~/dev/telenor/mtw-twe' },
             \ { 's': '~/dev/telenor/mtw-services' },
-            \ { 'w': '~/dev/telenor/mtw-web' }
+            \ { 'w': '~/dev/telenor/mtw-web' },
+            \ { 'n': '~/dev/telenor/ngaam' },
+            \ { 'f': '~/dev/the-real-boilerplate' }
             \ ]
 
 let g:startify_session_delete_buffers = 1

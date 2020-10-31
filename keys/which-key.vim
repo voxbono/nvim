@@ -44,10 +44,9 @@ let g:which_key_map.b = {
       \ 'd' : [':Bdelete'  , 'delete-buffer'],
       \ 'f' : ['bfirst'    , 'first-buffer'],
       \ 'h' : ['Startify'  , 'home-buffer'],
-      \ 'l' : ['blast'     , 'last-buffer'],
       \ 'n' : ['bnext'     , 'next-buffer'],
       \ 'p' : ['bprevious' , 'previous-buffer'],
-      \ '?' : ['Buffers'   , 'fzf-buffer'],
+      \ 'l' : ['Buffers'   , 'fzf-buffer'],
       \ }
 
 
@@ -67,7 +66,6 @@ let g:which_key_map.k = {
       \ 'p' : [':AsyncTask project-run'       , 'run project'],
       \ 'x' : [':cclose'                      , 'close task view'],
       \ }
-      " \ 'l' : [':AsyncTaskList'               , 'list tasks'],
 
 " s is for search
 let g:which_key_map.s = {

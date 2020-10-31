@@ -14,6 +14,8 @@ call plug#begin('~/.vim/plugged')
 " File Explorer
 Plug 'pangloss/vim-javascript'
 Plug 'scrooloose/NERDTree'
+" Comments
+Plug 'preservim/nerdcommenter'
 " Auto pairs for '(' '[' '{'
 Plug 'jiangmiao/auto-pairs'
 " Better status line

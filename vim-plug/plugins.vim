@@ -12,7 +12,8 @@ call plug#begin('~/.vim/plugged')
 " Better Syntax Support
 " Plug 'sheerun/vim-polyglot'
 " File Explorer
-Plug 'pangloss/vim-javascript'
+" Plug 'pangloss/vim-javascript'
+Plug 'yuezk/vim-js'
 Plug 'scrooloose/NERDTree'
 " Comments
 Plug 'preservim/nerdcommenter'
@@ -24,7 +25,9 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Theme
 " Plug 'joshdick/onedark.vim'
-Plug 'morhetz/gruvbox'
+" Plug 'morhetz/gruvbox'
+Plug 'ghifarit53/daycula-vim', {'branch': 'main'}
+Plug 'ryanoasis/vim-devicons'
 " Intellisense
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Searching

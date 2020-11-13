@@ -21,7 +21,10 @@ let g:startify_bookmarks = [
             \ { 'N': '~/dev/telenor/mtw-nginx' },
             \ { 'm': '~/dev/telenor/mtw-mobile-subscription' },
             \ { 'l': '~/dev/telenor/mtw-login' },
-            \ { 'M': '~/dev/telenor/@mtw' }
+            \ { 'M': '~/dev/telenor/@mtw' },
+            \ { 'F': '~/dev/telenor/mtw-frontpage-2020' },
+            \ { 'd': '~/dev/telenor/mtw-fixed-dashboard' },
+            \ { 'p': '~/dev/telenor/mtw-fixed-premium-tv' }
             \ ]
 
 let g:startify_session_delete_buffers = 1

@@ -11,9 +11,9 @@ call plug#begin('~/.vim/plugged')
 
 " Better Syntax Support
 " Plug 'sheerun/vim-polyglot'
-" File Explorer
 " Plug 'pangloss/vim-javascript'
 Plug 'yuezk/vim-js'
+" File Explorer
 Plug 'scrooloose/NERDTree'
 " Comments
 Plug 'preservim/nerdcommenter'
@@ -44,7 +44,7 @@ Plug 'junegunn/gv.vim'
 " Key shortcuts
 Plug 'liuchengxu/vim-which-key'
 " Node debugger
-Plug 'eliba2/vim-node-inspect'
+Plug 'puremourning/vimspector'
 " Floating terminal
 Plug 'voldikss/vim-floaterm'
 call plug#end()

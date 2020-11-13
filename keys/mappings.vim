@@ -16,9 +16,9 @@ inoremap <c-u> <ESC>viwUi
 nnoremap <c-u> viwU<Esc>
 
 " TAB in general mode will move to text buffer
-nnoremap <TAB> :bnext<CR>
+" nnoremap <TAB> :bnext<CR>
 " SHIFT-TAB will go back
-nnoremap <S-TAB> :bprevious<CR>
+" nnoremap <S-TAB> :bprevious<CR>
 
 " Alternate way to save
 nnoremap <C-s> :w<CR>
@@ -38,10 +38,3 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
-
-nnoremap <silent><F4> :NodeInspectStart<cr>
-nnoremap <silent><F5> :NodeInspectRun<cr>
-nnoremap <silent><F6> :NodeInspectStop<cr>
-nnoremap <silent><F8> :NodeInspectToggleBreakpoint<cr>
-nnoremap <silent><F9> :NodeInspectStepInto<cr>
-nnoremap <silent><F10> :NodeInspectStepOver<cr>

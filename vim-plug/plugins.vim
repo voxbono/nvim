@@ -10,10 +10,11 @@ endif
 call plug#begin('~/.vim/plugged')
 
 " Better Syntax Support
-Plug 'nvim-treesitter/nvim-treesitter'
+" Plug 'nvim-treesitter/nvim-treesitter'
 " Plug 'sheerun/vim-polyglot'
 " Plug 'pangloss/vim-javascript'
-" Plug 'yuezk/vim-js'
+Plug 'yuezk/vim-js'
+Plug 'posva/vim-vue'
 " File Explorer
 Plug 'scrooloose/NERDTree'
 " Comments
@@ -26,6 +27,7 @@ Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
 " Theme
 " Plug 'joshdick/onedark.vim'
+" Plug 'lifepillar/gruvbox8'
 " Plug 'morhetz/gruvbox'
 Plug 'ghifarit53/daycula-vim', {'branch': 'main'}
 " Plug 'christianchiarulli/nvcode-color-schemes.vim'

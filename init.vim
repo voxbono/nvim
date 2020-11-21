@@ -4,8 +4,8 @@ source $HOME/.config/nvim/keys/mappings.vim
 source $HOME/.config/nvim/keys/which-key.vim
 " source $HOME/.config/nvim/plug-config/treesitter.vim
 " source $HOME/.config/nvim/themes/nvcode-color-schemes.vim
-source $HOME/.config/nvim/themes/daycula.vim
-" source $HOME/.config/nvim/themes/gruvbox.vim
+" source $HOME/.config/nvim/themes/daycula.vim
+source $HOME/.config/nvim/themes/gruvbox.vim
 " source $HOME/.config/nvim/themes/onedark.vim
 source $HOME/.config/nvim/plug-config/coc.vim
 source $HOME/.config/nvim/plug-config/airline.vim

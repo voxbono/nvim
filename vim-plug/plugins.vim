@@ -16,7 +16,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'yuezk/vim-js'
 Plug 'posva/vim-vue'
 " File Explorer
-Plug 'scrooloose/NERDTree'
+ Plug 'scrooloose/NERDTree'
 " Comments
 Plug 'preservim/nerdcommenter'
 " Auto pairs for '(' '[' '{'
@@ -29,7 +29,8 @@ Plug 'vim-airline/vim-airline-themes'
 " Plug 'joshdick/onedark.vim'
 " Plug 'lifepillar/gruvbox8'
 " Plug 'morhetz/gruvbox'
-Plug 'ghifarit53/daycula-vim', {'branch': 'main'}
+Plug 'gruvbox-community/gruvbox'
+" Plug 'ghifarit53/daycula-vim', {'branch': 'main'}
 " Plug 'christianchiarulli/nvcode-color-schemes.vim'
 Plug 'ryanoasis/vim-devicons'
 " Intellisense
